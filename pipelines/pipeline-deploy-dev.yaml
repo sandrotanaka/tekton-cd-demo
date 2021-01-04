@@ -81,6 +81,8 @@ spec:
       - -f
       - spring-petclinic
       - -Dsonar.host.url=http://sonarqube:9000
+      - -Dsonar.login=admin
+      - -Dsonar.password=admin
       - -Dsonar.userHome=/tmp/sonar
       - -DskipTests=true
   - name: dependency-report
